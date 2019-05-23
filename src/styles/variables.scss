@@ -1,0 +1,25 @@
+//colors
+$kanata: rgb(251,43,43);
+$azure: rgb(30,55,70);
+$charcoal: rgb(56,56,56);
+
+$final-width: 375px;
+$mobile-width: 600px;
+$tablet-width: 900px;
+
+@mixin final {
+    @media (max-width: #{$final-width})  {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: #{$mobile-width}) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media (max-width: #{$tablet-width}) {
+        @content;
+    }
+}

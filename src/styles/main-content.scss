@@ -1,0 +1,111 @@
+.main-content-container {
+    width: 100%;
+    height: 102vh;
+    // @include mobile {
+    //     height: 115vh;
+    //     width: 115%;
+    // }
+}
+
+.image {
+    // position: absolute;
+    width: 5rem;
+    height: 5rem;
+    @include tablet {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+}
+
+.button {
+    position: absolute;
+}
+// DEVS
+// .muscle1 {
+//     top: 40px;
+//     right: 110px;
+// }
+.braeden-button {
+    top: 40px;
+    right: 110px;
+    position: absolute;
+
+    
+}
+
+.wren-button {
+    top: 150px;
+    right: 150px;
+}
+
+.rafi-button {
+    top: 85px;
+    right: 220px;
+
+}
+// OTHERS
+// strategist alyx
+.alyx-button {
+    bottom: 30px;
+    left: 150px;
+}
+// jathu
+.jathushan-button {
+    bottom: 120px;
+}
+
+// producer 
+.devon-button {
+    bottom: 10px;
+    left: 560px;
+    @include tablet {
+        left: 300px;
+    }
+    @include mobile {
+        left: 250px;
+        bottom: 40px;
+    }
+}
+
+// designers
+.do-button {
+    top: 40px;
+    left: 140px;
+    @include mobile {
+        left: 50px;
+    }
+}
+
+.pj-button {
+    top: 280px;
+    left: 350px;
+    @include mobile {
+        left: 280px;
+    }
+}
+
+// copy
+.jacqui-button {
+    top: 140px;
+    left: 150px;
+    @include mobile {
+        left: 60px;
+    }
+}
+
+// marketing sciiii
+.lucy-button {
+    top: 350px;
+    right: 280px;
+    @include mobile {
+        right: 200px;
+    }
+}
+
+.kiran-button {
+    top: 480px;
+    right: 300px;
+
+}
+
+

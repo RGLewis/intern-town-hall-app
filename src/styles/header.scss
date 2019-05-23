@@ -1,0 +1,28 @@
+header {
+    color: red;
+    text-align: center;
+    // padding: 15% 0 0 0;
+    font-weight: 900;
+    opacity: 0.5;
+    letter-spacing: 20px;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    h1 {
+        font-size: 6rem;
+        border: 5px dotted red;
+        padding: 10px;
+        transform: rotate(-30deg);
+        
+        @include tablet {
+            font-size: 3.6rem;
+        }
+        @include mobile {
+            font-size: 2rem;
+    }
+        
+    }
+}
