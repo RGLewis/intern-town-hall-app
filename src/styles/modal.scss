@@ -45,6 +45,15 @@
     position: absolute;
     top: 2%;
     left: 2%;
+    transition: 300ms;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &:active, &:focus {
+        border-color: red;
+    }
 
 }
 

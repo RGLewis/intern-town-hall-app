@@ -25,15 +25,6 @@ import pj from "./assets/pj_icon.png";
 import rafaela from "./assets/rafaela_icon.png";
 import wren from "./assets/wren_icon.png";
 
-
-
-
-
-
-
-
-
-
 class App extends Component {
   constructor() {
     super()
@@ -42,6 +33,7 @@ class App extends Component {
   }
 }
 
+  //Function to set state based on intern icon clicked
   setInternModal = (e) => {
     let internClicked = e.target.getAttribute("data-name");
 
@@ -50,14 +42,12 @@ class App extends Component {
       });
   }
 
+  //Function to close modal -- set state back to null
   closeInternModal = () => {
     this.setState({
       whosModel: null
     });
   }
-
-
-  
 
   render() {
     //Variables storing intern models
@@ -89,8 +79,7 @@ class App extends Component {
             <Header />
           <div className="wrapper">
 
-            {/* <img src={floorPlan} alt="floorplan of Critical Mass ... Oceans 11 style." /> */}
-
+          {/* Intern icons */}
           <button className="braeden-button button" data-name="braeden" onClick={this.setInternModal}>
               <img className="image muscle1" src={braeden} alt="an icon of an acrobat representing braeden"  />
             </button>
@@ -141,15 +130,9 @@ class App extends Component {
             }
 
           </div>
-
-          
-
         </main>
     )
-
   }
-
-
 }
 
 export default App;
