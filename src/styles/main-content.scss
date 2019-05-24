@@ -3,6 +3,17 @@
     height: 100vh;
 }
 
+.button-container {
+    @include mobile {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+    }
+}
+
 .image {
     width: 5rem;
     height: 5rem;
@@ -24,30 +35,34 @@
     &:focus, &:active {
         border: 2px solid black;
     }
+
+    @include mobile {
+        position: static;
+        margin: 5px;
+    }
 }
 
 .braeden-button {
     top: 40px;
     right: 110px;
-    position: absolute;
 }
 
 .wren-button {
     top: 150px;
     right: 150px;
 
- @include final {
-        top: 250px;
-    }
+//  @include final {
+//         top: 250px;
+//     }
 }
 
 .rafi-button {
     top: 85px;
     right: 220px;
-     @include mobile {
-        left: 50px;
-        top: 300px;
-    }
+    //  @include mobile {
+    //     left: 50px;
+    //     top: 300px;
+    // }
 
 }
 // OTHERS
@@ -69,45 +84,45 @@
     @include tablet {
         left: 300px;
     }
-    @include mobile {
-        left: 250px;
-        bottom: 40px;
-    }
+    // @include mobile {
+    //     left: 250px;
+    //     bottom: 40px;
+    // }
 }
 
 // designers
 .do-button {
     top: 40px;
     left: 140px;
-    @include mobile {
-        left: 50px;
-    }
+    // @include mobile {
+    //     left: 50px;
+    // }
 }
 
 .pj-button {
     top: 268px;
     left: 350px;
-    @include mobile {
-        left: 280px;
-    }
+    // @include mobile {
+    //     left: 280px;
+    // }
 }
 
 // copy
 .jacqui-button {
     top: 140px;
     left: 150px;
-    @include mobile {
-        left: 60px;
-    }
+    // @include mobile {
+    //     left: 60px;
+    // }
 }
 
 // marketing sciiii
 .lucy-button {
     top: 350px;
     right: 280px;
-    @include mobile {
-        right: 200px;
-    }
+    // @include mobile {
+    //     right: 200px;
+    // }
 }
 
 .kiran-button {
@@ -120,53 +135,53 @@
 }
 
 //Additional small-screen styles
- @include final {
-     .button {
-          top: 0;
-          bottom: 0;
-          right: 0;
-          left: 0;
-     }   
-     .braeden-button {
-         bottom: 300px;
-     }
-     .wren-button {
-         bottom: 300px;
-         left: 75px;
-     }
-     .rafi-button {
-         bottom: 300px;
-         left: 150px;
-     }
-     .alyx-button {
-         bottom: 300px;
-         left: 225px;
-     }
-     .devon-button {
-         bottom: 100px;
-     }
-     .do-button {
-         bottom: 100px;
-         left: 75px;
-     }
-     .jacqui-button {
-         bottom: 100px;
-         left: 150px;
-     }
-     .jathushan-button {
-         bottom: 100px;
-         left: 225px;
-     }
-     .lucy-button {
-         top: 100px;
-         left: 20px;
-     }
-     .kiran-button {
-         top: 100px;
-         left: 110px;
-     }
-     .pj-button {
-         top: 100px;
-         left: 190px;
-     }
-    }
+//  @include final {
+//      .button {
+//           top: 0;
+//           bottom: 0;
+//           right: 0;
+//           left: 0;
+//      }   
+//      .braeden-button {
+//          bottom: 300px;
+//      }
+//      .wren-button {
+//          bottom: 300px;
+//          left: 75px;
+//      }
+//      .rafi-button {
+//          bottom: 300px;
+//          left: 150px;
+//      }
+//      .alyx-button {
+//          bottom: 300px;
+//          left: 225px;
+//      }
+//      .devon-button {
+//          bottom: 100px;
+//      }
+//      .do-button {
+//          bottom: 100px;
+//          left: 75px;
+//      }
+//      .jacqui-button {
+//          bottom: 100px;
+//          left: 150px;
+//      }
+//      .jathushan-button {
+//          bottom: 100px;
+//          left: 225px;
+//      }
+//      .lucy-button {
+//          top: 100px;
+//          left: 20px;
+//      }
+//      .kiran-button {
+//          top: 100px;
+//          left: 110px;
+//      }
+//      .pj-button {
+//          top: 100px;
+//          left: 190px;
+//      }
+//     }

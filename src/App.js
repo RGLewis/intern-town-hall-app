@@ -77,7 +77,7 @@ class App extends Component {
     return (
         <main className="main-content-container" style={styles.mainContainer}>
             <Header />
-          <div className="wrapper">
+          <div className="wrapper button-container">
 
           {/* Intern icons */}
           <button className="braeden-button button" data-name="braeden" onClick={this.setInternModal}>
