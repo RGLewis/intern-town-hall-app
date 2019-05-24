@@ -9,7 +9,7 @@ const RafiModal = (props) => {
             </button>
 
             <h1>Rafaela</h1>
-            <img className="photo" src={rafi} alt="A photo of rafi"/>
+            <img className="photo" src={rafi} alt=""/>
             <h2>The Timer a.k.a. Dev</h2>
             <p>She’s been around the world, even in an episode of The Romanoffs. Now she’s making sure everybody makes their mark.</p>
             <p><span className="bold">Strength:</span> Knows when you’ll die</p>

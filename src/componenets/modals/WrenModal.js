@@ -9,7 +9,7 @@ const WrenModal = (props) => {
             </button>
 
             <h1>Wren</h1>
-            <img className="photo" src={wren} alt="A photo of wren"/>
+            <img className="photo" src={wren} alt=""/>
             <h2>The Decoy a.k.a. Dev</h2>
             <p>When he dresses up for conventions, he’s a crowd favourite. Now he’s getting past security in a doggy disguise.</p>
             <p><span className="bold">Strength:</span> Can really get into character</p>

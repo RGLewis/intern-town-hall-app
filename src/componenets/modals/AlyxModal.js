@@ -8,7 +8,7 @@ const AlyxModal = (props) => {
             </button>
 
             <h1>Alyx</h1>
-            <img className="photo" src={alyx} alt="A photo of alyx"/>
+            <img className="photo" src={alyx} alt=""/>
             <h2>The Mastermind a.k.a. Strategy</h2>
             <p>She wants to make memories as a team,and even her backup plans have backup plans.</p>
             <p><span className="bold">Strength:</span>Photographic memory (but only of dogs)</p>

@@ -77,48 +77,48 @@ class App extends Component {
 
             {/* <img src={floorPlan} alt="floorplan of Critical Mass ... Oceans 11 style." /> */}
 
-            <button className="braeden-button button" >
-              <img className="image muscle1" src={muscle} alt="" data-name="braeden" onClick={this.setInternModal}/>
+          <button className="braeden-button button" data-name="braeden" onClick={this.setInternModal}>
+              <img className="image muscle1" src={muscle} alt=""  />
             </button>
 
-            <button  className="wren-button button">
-              <img className="image muscle2" src={muscle} alt="" data-name="wren" onClick={this.setInternModal} />
+          <button className="wren-button button" data-name="wren" onClick={this.setInternModal}>
+              <img className="image muscle2" src={muscle} alt="" />
             </button>
 
-            <button  className="rafi-button button">
-              <img className="image muscle3" src={muscle} alt="" data-name="rafi" onClick={this.setInternModal} />
+          <button className="rafi-button button" data-name="rafi" onClick={this.setInternModal} >
+              <img className="image muscle3" src={muscle} alt="" />
             </button>
 
-            <button className="alyx-button button"å>
-              <img className="image muscle4" src={muscle} alt="" data-name="alyx" onClick={this.setInternModal} />
+          <button className="alyx-button button" data-name="alyx" onClick={this.setInternModal}>
+              <img className="image muscle4" src={muscle} alt="" />
             </button>
 
-            <button className="devon-button button">
-              <img className="image muscle5" src={muscle} alt="" data-name="devon" onClick={this.setInternModal} />
+          <button className="devon-button button" data-name="devon" onClick={this.setInternModal}>
+              <img className="image muscle5" src={muscle} alt="" />
             </button>
 
-            <button className="do-button button">
-              <img className="image muscle6" src={muscle} alt="" data-name="do" onClick={this.setInternModal} />
+          <button className="do-button button" data-name="do" onClick={this.setInternModal}>
+              <img className="image muscle6" src={muscle} alt="" />
             </button>
 
-            <button className="jacqui-button button">
-              <img className="image muscle7" src={muscle} alt="" data-name="jacqui" onClick={this.setInternModal} />
+          <button className="jacqui-button button" data-name="jacqui" onClick={this.setInternModal}>
+              <img className="image muscle7" src={muscle} alt="" />
             </button>
 
-            <button  className="jathushan-button button" type="button">
-              <img className="image muscle8" src={muscle} alt="" data-name="jathushan" onClick={this.setInternModal} />
+          <button className="jathushan-button button" type="button" data-name="jathushan" onClick={this.setInternModal}>
+              <img className="image muscle8" src={muscle} alt="" />
             </button>
 
-            <button className="lucy-button button">
-              <img className="image muscle9" src={muscle} alt="" data-name="lucy" onClick={this.setInternModal} />
+          <button className="lucy-button button" data-name="lucy" onClick={this.setInternModal}>
+              <img className="image muscle9" src={muscle} alt="" />
             </button>
 
-            <button  className="kiran-button button">
-              <img className="image muscle10" src={muscle} alt="" data-name="kiran" onClick={this.setInternModal} />
+          <button className="kiran-button button" data-name="kiran" onClick={this.setInternModal}>
+              <img className="image muscle10" src={muscle} alt="" />
             </button>
 
-            <button className="pj-button button">
-              <img className="image muscle11" src={muscle} alt="" data-name="pj" onClick={this.setInternModal} />
+          <button className="pj-button button" data-name="pj" onClick={this.setInternModal}>
+              <img className="image muscle11" src={muscle} alt="" />
             </button>
 
             {/* Render the intern that's clicked */}

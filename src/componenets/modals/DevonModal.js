@@ -9,7 +9,7 @@ const DevonModal = (props) => {
             </button>
 
             <h1>Devon</h1>
-            <img className="photo" src={devon} alt="a photo of devon"/>
+            <img className="photo" src={devon} alt=""/>
             <h2>The Ringleader a.k.a. Production</h2>
             <p>When shit goes down, she gets things done. She’s both the shoulder to cry on, and the reason we’re crying.</p>
             <p><span className="bold">Strength:</span> Knows everyone’s weaknesses</p>

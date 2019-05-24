@@ -10,7 +10,7 @@ const DoModal = (props) => {
             </button>
 
             <h1>Do</h1>
-            <img className="photo" src={doo} alt="A photo of doo"/>
+            <img className="photo" src={doo} alt=""/>
             <h2>The Hypnosis a.k.a. UX Design</h2>
             <p>He doesn’t like talking to people, but when he does
             his melodic voice gets passwords out of them.</p>

@@ -9,7 +9,7 @@ const LucyModal = (props) => {
             </button>
 
             <h1>Lucy</h1>
-            <img className="photo" src={lucy} alt="a photo of lucy"/>
+            <img className="photo" src={lucy} alt=""/>
             <h2>The Hacker a.k.a. Marketing Science</h2>
             <p>They call her the AI whisperer. Silent but deadly,
             she’s got the ransomware to put Omnicom in their place.</p>

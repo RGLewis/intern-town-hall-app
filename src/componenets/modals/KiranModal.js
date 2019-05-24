@@ -9,7 +9,7 @@ const KiranModal = (props) => {
             </button>
 
             <h1>Kiran</h1>
-            <img className="photo" src={kiran} alt="A photo of kiran"/>
+            <img className="photo" src={kiran} alt=""/>
             <h2>The Mad Scientist a.k.a. Finance</h2>
             <p>She’s got the microbes that’ll send you running to the washroom.
             Don’t worry, she’ll make sure you get reimbursed for the heist.</p>

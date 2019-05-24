@@ -9,7 +9,7 @@ const JathushanModal = (props) => {
             </button>
 
             <h1>Jathu</h1>
-            <img className="photo" src={jathu} alt="A photo of jathu"/>
+            <img className="photo" src={jathu} alt=""/>
             <h2>The Ex-Business Tycoon a.k.a. Strategy</h2>
             <p>He hates working for banks but doesn’t mind robbing one. He’ll risk it all if it’s a calculated one.</p>
             <p><span className="bold">Strength:</span> Insider trading</p>
