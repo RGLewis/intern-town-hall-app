@@ -48,6 +48,9 @@ p {
     font-size: 1.3rem;
     text-align: left;
     margin:  3.5% 5%;
+    @include mobile {
+        font-size: 1rem;
+    }
 }
 
 .button {

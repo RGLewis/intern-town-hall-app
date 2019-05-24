@@ -1,6 +1,6 @@
 .main-content-container {
     width: 100%;
-    height: 102vh;
+    height: 100vh;
     // @include mobile {
     //     height: 115vh;
     //     width: 115%;
@@ -37,11 +37,19 @@
 .wren-button {
     top: 150px;
     right: 150px;
+
+ @include final {
+        top: 250px;
+    }
 }
 
 .rafi-button {
     top: 85px;
     right: 220px;
+     @include mobile {
+        left: 50px;
+        top: 300px;
+    }
 
 }
 // OTHERS
@@ -53,11 +61,12 @@
 // jathu
 .jathushan-button {
     bottom: 120px;
+    left: 70px;
 }
 
 // producer 
 .devon-button {
-    bottom: 10px;
+    bottom: 40px;
     left: 560px;
     @include tablet {
         left: 300px;
@@ -78,7 +87,7 @@
 }
 
 .pj-button {
-    top: 280px;
+    top: 268px;
     left: 350px;
     @include mobile {
         left: 280px;
@@ -107,6 +116,60 @@
     top: 480px;
     right: 300px;
 
+ @include final {
+        right: 150px;
+    }
+
 }
 
 
+ @include final {
+     .button {
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+     }   
+     .braeden-button {
+         bottom: 300px;
+     }
+     .wren-button {
+         bottom: 300px;
+         left: 75px;
+     }
+     .rafi-button {
+         bottom: 300px;
+         left: 150px;
+     }
+     .alyx-button {
+         bottom: 300px;
+         left: 225px;
+     }
+     .devon-button {
+         bottom: 100px;
+     }
+     .do-button {
+         bottom: 100px;
+         left: 75px;
+     }
+     .jacqui-button {
+         bottom: 100px;
+         left: 150px;
+     }
+     .jathushan-button {
+         bottom: 100px;
+         left: 225px;
+     }
+     .lucy-button {
+         top: 100px;
+         left: 20px;
+     }
+     .kiran-button {
+         top: 100px;
+         left: 110px;
+     }
+     .pj-button {
+         top: 100px;
+         left: 190px;
+     }
+    }

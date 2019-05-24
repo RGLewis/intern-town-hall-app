@@ -4,12 +4,12 @@ import lucy from "../../assets/lucy.jpg";
 const LucyModal = (props) => {
     return (
         <div className="modal-container">
-            <button className="modal-button" type="button" onClick={props.closeInternModal}>
-                <i class="far fa-times-circle close"></i>
+            <button aria-label="close modal" className="modal-button" type="button" onClick={props.closeInternModal}>
+                <i aria-hidden="true" className="far fa-times-circle close"></i>
             </button>
 
             <h1>Lucy</h1>
-            <img className="photo" src={lucy} alt=""/>
+            <img className="photo" src={lucy} alt="a black and white headshot of Lucy"/>
             <h2>The Hacker a.k.a. Marketing Science</h2>
             <p>They call her the AI whisperer. Silent but deadly,
             she’s got the ransomware to put Omnicom in their place.</p>
